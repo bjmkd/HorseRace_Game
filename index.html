@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- FontAwesome - Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Horse Race</title>
+</head>
+
+<body>
+    <div class="container-wrap">
+        <!--strat and reset-->
+        <input type="button" value="PLAY" id="race">
+        <div id="Reset">
+            <h2>Game Over</h2>
+            <input type="button" value="RESET">
+        </div>
+        <div id="counter">
+        </div>
+        <div id="scoreboard">
+            <h2>Results</h2>
+            <!--result for horses-->
+            <div id="RaceInfo1" class="RaceInfo">HORSE 1 <span></span>
+            </div>
+            <div id="RaceInfo2" class="RaceInfo">HORSE 2 <span></span>
+            </div>
+            <div id="RaceInfo3" class="RaceInfo">HORSE 3 <span></span>
+            </div>
+            <div id="RaceInfo4" class="RaceInfo">HORSE 4 <span></span>
+            </div>
+            <div id="RaceInfo5" class="RaceInfo">HORSE 5 <span></span>
+            </div>
+        </div>
+
+        <div id="RaceTrack">
+            <!--images-->
+            <img id="horse1" class="horse" src="images/horse_stay.png"  alt="Race_horse">
+            <img id="horse2" class="horse" src="images/horse_stay.png"  alt="Race_horse">
+            <img id="horse3" class="horse" src="images/horse_stay.png"  alt="Race_horse">
+            <img id="horse4" class="horse" src="images/horse_stay.png" alt="Race_horse">
+            <img id="horse5" class="horse" src="images/horse_stay.png"  alt="Race_horse">
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
